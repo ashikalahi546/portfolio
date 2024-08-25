@@ -3,7 +3,7 @@ import Banner from "/public/images/hero.png";
 
 function Hero() {
   return (
-    <div className="mt-[112px] flex items-center justify-between">
+    <div className="mt-[112px] flex md:flex-row flex-col items-center justify-between xl:gap-0 sm:gap-[60px] gap-10 ">
       <div className="text-white">
         <h1 className="text-5xl font-bold leading-tight">
           Hi, I am
