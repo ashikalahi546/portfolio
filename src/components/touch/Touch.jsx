@@ -2,11 +2,11 @@ import React from "react";
 
 const Touch = () => {
   return (
-    <div className=" mt-[120px] w-[753px] mx-auto">
+    <div className=" mt-[120px] lg:w-[753px] mx-auto md:px-0 px-5">
       <h1 className="text-white text-center text-5xl font-bold mb-[82px]">
         Get in touch
       </h1>
-      <div className="grid grid-cols-2 gap-x-[37px] gap-y-[47px]">
+      <div className="grid sm:grid-cols-2 gap-x-[37px] gap-y-[47px]">
         <input
           type="text"
           placeholder="Name"
@@ -28,7 +28,7 @@ const Touch = () => {
           className="outline-none bg-transparent border-b border-[#C4C4C4] text-sm font-bold text-white placeholder:[#4F4F4F]  pb-2.5"
         />
         <textarea
-          className="col-span-2 py-2.5 px-3 h-[109px] outline-none bg-transparent border border-[#C4C4C4] text-sm font-bold text-white placeholder:[#4F4F4F] resize-none "
+          className="sm:col-span-2 py-2.5 px-3 h-[109px] outline-none bg-transparent border border-[#C4C4C4] text-sm font-bold text-white placeholder:[#4F4F4F] resize-none "
           name=""
           id=""
           placeholder="Message"

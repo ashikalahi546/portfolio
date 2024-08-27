@@ -8,10 +8,10 @@ export default function Home() {
   return (
   <div className="2xl:w-[1440px] w-full mx-auto pt-7 xl:px-[120px] sm:px-5">
     <Hero/>
-    {/* <About/> */}
-    {/* <Skill/> */}
-    {/* <Touch/>
-    <Footer/> */}
+    <About/>
+    <Skill/>
+     <Touch/>
+    <Footer/>
   </div>
   );
 }
